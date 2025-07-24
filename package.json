@@ -9,7 +9,9 @@
   ],
   "type": "module",
   "main": "index.js",
-  "dependencies": {
+  "scripts": {
+    "start": "tsx index.ts"
+  },  "dependencies": {
     "@notionhq/client": "^4.0.1",
     "axios": "1.11.0",
     "extract-zip": "2.0.1",
