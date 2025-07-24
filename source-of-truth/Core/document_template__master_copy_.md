@@ -2,7 +2,7 @@
 title: Document Template (Master Copy)
 database: Core
 notion_id: 23780979-7b42-80a1-bfba-f3d1d1b91607
-last_updated: 2025-07-24T10:44:53.926Z
+last_updated: 2025-07-24T10:58:27.561Z
 ---
 
 # Document Template (Master Copy)
