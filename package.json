@@ -10,14 +10,15 @@
   "type": "module",
   "main": "index.js",
   "dependencies": {
+    "@notionhq/client": "^4.0.1",
     "axios": "1.11.0",
     "extract-zip": "2.0.1",
+    "notion-to-md": "^3.1.9",
     "p-map": "7.0.3",
     "tsx": "4.20.3"
   },
   "devDependencies": {
     "eslint": "9.31.0",
-    "eslint-config-upleveled": "9.2.5",
     "prettier": "3.6.2",
     "typescript": "5.8.3"
   },
