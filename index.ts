@@ -11,7 +11,7 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 // Your database configuration
 const databases = [
-  { id: '237809797b4280008ee9cbfe0073dc73', path: 'source-of-truth/Core', name: 'Core' },
+  { id: '23a809797b428054b927cb695d091115', path: 'source-of-truth/Core', name: 'Core' },
   { id: '238809797b428041b717f6029c3a50a2', path: 'source-of-truth/Annexes/Playbooks', name: 'Playbooks' },
   { id: '238809797b428058ac7bfd6c131c8061', path: 'source-of-truth/Annexes/Protocols', name: 'Protocols' },
   { id: '238809797b42809ea93ce2bd1a8abefa', path: 'source-of-truth/Annexes/Processes', name: 'Processes' },
