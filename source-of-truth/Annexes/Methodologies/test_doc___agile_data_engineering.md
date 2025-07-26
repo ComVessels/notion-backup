@@ -2,7 +2,7 @@
 title: Test Doc - Agile Data Engineering
 database: Methodologies
 notion_id: 23880979-7b42-8034-89fd-dfe90665403d
-last_updated: 2025-07-26T11:53:31.829Z
+last_updated: 2025-07-26T12:23:43.354Z
 ---
 
 # Test Doc - Agile Data Engineering
