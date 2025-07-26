@@ -2,7 +2,7 @@
 title: Test Doc - Data Security Protocol
 database: Protocols
 notion_id: 23880979-7b42-8011-96af-c7e7883e6587
-last_updated: 2025-07-26T22:44:05.721Z
+last_updated: 2025-07-26T22:54:33.012Z
 ---
 
 # Test Doc - Data Security Protocol
