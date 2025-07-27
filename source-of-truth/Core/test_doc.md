@@ -2,7 +2,7 @@
 title: Test_Doc
 database: Core
 notion_id: 23a80979-7b42-801c-b825-fc3655cc281c
-last_updated: 2025-07-27T17:57:49.645Z
+last_updated: 2025-07-27T18:33:24.014Z
 ---
 
 # Test_Doc
