@@ -2,7 +2,7 @@
 title: Test Doc - Market Analysis Report Q2 2025
 database: References
 notion_id: 23880979-7b42-8074-a9e7-ef947db6804f
-last_updated: 2025-07-27T23:39:15.587Z
+last_updated: 2025-07-27T23:51:55.436Z
 ---
 
 # Test Doc - Market Analysis Report Q2 2025
