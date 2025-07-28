@@ -2,7 +2,7 @@
 title: Aegis_Blueprint_v5.3
 database: Core
 notion_id: 23a80979-7b42-80ac-b21d-c60c4f4942c5
-last_updated: 2025-07-27T23:51:36.528Z
+last_updated: 2025-07-28T00:48:05.268Z
 ---
 
 # Aegis_Blueprint_v5.3
