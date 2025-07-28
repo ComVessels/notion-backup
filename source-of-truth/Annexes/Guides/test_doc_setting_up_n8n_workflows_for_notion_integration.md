@@ -2,7 +2,7 @@
 title: Test Doc-Setting Up n8n Workflows for Notion Integration
 database: Guides
 notion_id: 23880979-7b42-8055-abb7-f04fdb8df8d0
-last_updated: 2025-07-28T12:36:47.717Z
+last_updated: 2025-07-28T13:25:26.374Z
 ---
 
 # Test Doc-Setting Up n8n Workflows for Notion Integration
