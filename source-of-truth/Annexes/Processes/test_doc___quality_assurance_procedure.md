@@ -2,7 +2,7 @@
 title: Test Doc - Quality Assurance Procedure
 database: Processes
 notion_id: 23880979-7b42-800a-87b2-e160db9d0cf3
-last_updated: 2025-07-28T20:29:40.516Z
+last_updated: 2025-07-28T20:48:42.668Z
 ---
 
 # Test Doc - Quality Assurance Procedure
