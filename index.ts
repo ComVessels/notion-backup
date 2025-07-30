@@ -11,15 +11,15 @@ const n2m = new NotionToMarkdown({ notionClient: notion });
 
 // Your database configuration
 const databases = [
-  { id: '23a809797b428054b927cb695d091115', path: 'source-of-truth/Core', name: 'Core' },
-  { id: '238809797b428041b717f6029c3a50a2', path: 'source-of-truth/Annexes/Playbooks', name: 'Playbooks' },
-  { id: '238809797b428058ac7bfd6c131c8061', path: 'source-of-truth/Annexes/Protocols', name: 'Protocols' },
-  { id: '238809797b42809ea93ce2bd1a8abefa', path: 'source-of-truth/Annexes/Processes', name: 'Processes' },
-  { id: '238809797b4280eb8ebedc8831cecb0d', path: 'source-of-truth/Annexes/Debriefs', name: 'Debriefs' },
-  { id: '238809797b42803b963fd6dbe278f54b', path: 'source-of-truth/Annexes/Guides', name: 'Guides' },
-  { id: '238809797b4280679808c1a4da8fcd2c', path: 'source-of-truth/Annexes/Roadmaps', name: 'Roadmaps' },
-  { id: '238809797b42800ea6e4c1bd26f0188c', path: 'source-of-truth/Annexes/References', name: 'References' },
-  { id: '238809797b42804f9970fabbd35050fa', path: 'source-of-truth/Annexes/Methodologies', name: 'Methodologies' },
+  { id: '240809797b4280d5a957dbe5c8a57b6d', path: 'Source-of-Truth/Core/Core-Documents', name: 'Core Documents' },
+  { id: '240809797b4280698a27dd07fb6c4e42', path: 'Source-of-Truth/Annexes/Playbooks', name: 'Playbooks' },
+  { id: '240809797b428040ab5af6702e88a1d6', path: 'Source-of-Truth/Annexes/Protocols', name: 'Protocols' },
+  { id: '240809797b4280c7a596f9d4cf3aac18', path: 'Source-of-Truth/Annexes/Processes', name: 'Processes' },
+  { id: '240809797b4280f3ad50fd58d92c6fb4', path: 'Source-of-Truth/Annexes/Debriefs', name: 'Debriefs' },
+  { id: '240809797b4280d3aa1ef647a567776b', path: 'Source-of-Truth/Annexes/Guides', name: 'Guides' },
+  { id: '240809797b4280558421ed0009719549', path: 'Source-of-Truth/Annexes/Roadmaps', name: 'Roadmaps' },
+  { id: '240809797b4280d2a735eec127de0156', path: 'Source-of-Truth/Annexes/References', name: 'References' },
+  { id: '240809797b42801ba12dcce8b8c06a8b', path: 'Source-of-Truth/Annexes/Methodologies', name: 'Methodologies' },
 ];
 
 async function getPageTitle(page: any): Promise<string> {
