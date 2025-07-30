@@ -2,7 +2,7 @@
 title: Context Engineering Guide
 database: Methodologies
 notion_id: 24080979-7b42-8020-ac53-f69801f146cb
-last_updated: 2025-07-30T17:18:06.389Z
+last_updated: 2025-07-30T17:42:30.339Z
 ---
 
 # Context Engineering Guide
