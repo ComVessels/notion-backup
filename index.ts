@@ -9,7 +9,7 @@ const notion = new Client({
 
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
-// const databases = [
+const databases = [
   { id: '240809797b4280d5a957dbe5c8a57b6d', path: 'source-of-truth/Core', name: 'Core Documents' },
   { id: '240809797b4280698a27dd07fb6c4e42', path: 'source-of-truth/Annexes/Playbooks', name: 'Playbooks' },
   { id: '240809797b428040ab5af6702e88a1d6', path: 'source-of-truth/Annexes/Protocols', name: 'Protocols' },
