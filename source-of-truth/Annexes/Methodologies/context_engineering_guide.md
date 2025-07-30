@@ -1,8 +1,8 @@
 ---
 title: Context Engineering Guide
-database: Guides
-notion_id: 23f80979-7b42-80fa-9dfe-f9fd4dd89e17
-last_updated: 2025-07-30T01:11:33.020Z
+database: Methodologies
+notion_id: 24080979-7b42-8020-ac53-f69801f146cb
+last_updated: 2025-07-30T01:11:52.173Z
 ---
 
 # Context Engineering Guide
@@ -43,17 +43,17 @@ _Updated: From v1.0—Preserved core content verbatim with light surgical edits 
 
 ## Table of Contents
 
-1. [High-Level Explanation of the Article](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#high-level-explanation-of-the-article)
-2. [Applying These Lessons to Your AI-First System](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#applying-these-lessons-to-your-ai-first-system)
-2.1 [1. Design Around Caching (Stability & Cost Savings)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#1-design-around-caching-stability--cost-savings)
-2.2 [2. Mask Tools, Don't Remove (Stability in Tool Management)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#2-mask-tools-dont-remove-stability-in-tool-management)
-2.3 [3. Use Files as Extra Memory (Scalability for Large Data)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#3-use-files-as-extra-memory-scalability-for-large-data)
-2.4 [4. Manipulate Attention Through Recitation (Stability in Long Tasks)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#4-manipulate-attention-through-recitation-stability-in-long-tasks)
-2.5 [5. Keep the Wrong Stuff In (Resilience & Learning)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#5-keep-the-wrong-stuff-in-resilience--learning)
-2.6 [6. Don't Get Few-Shotted (Avoiding Brittleness)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#6-dont-get-few-shotted-avoiding-brittleness)
-3. [Overall Architecture Advice](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#overall-architecture-advice)
-4. [Additional Manus Lessons (Verbatim from Article Summary)](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#additional-manus-lessons-verbatim-from-article-summary)
-5. [Aegis-Specific Applications](https://www.notion.so/238809797b42803b963fd6dbe278f54b?v=238809797b4280a28395000c39111a49&p=23f809797b4280fa9dfef9fd4dd89e17&pm=s#aegis-specific-applications) **UPDATED: Expanded with sub-agents/Mem0/pipeline.**
+1. [High-Level Explanation of the Article](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#high-level-explanation-of-the-article)
+2. [Applying These Lessons to Your AI-First System](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#applying-these-lessons-to-your-ai-first-system)
+2.1 [1. Design Around Caching (Stability & Cost Savings)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#1-design-around-caching-stability--cost-savings)
+2.2 [2. Mask Tools, Don't Remove (Stability in Tool Management)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#2-mask-tools-dont-remove-stability-in-tool-management)
+2.3 [3. Use Files as Extra Memory (Scalability for Large Data)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#3-use-files-as-extra-memory-scalability-for-large-data)
+2.4 [4. Manipulate Attention Through Recitation (Stability in Long Tasks)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#4-manipulate-attention-through-recitation-stability-in-long-tasks)
+2.5 [5. Keep the Wrong Stuff In (Resilience & Learning)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#5-keep-the-wrong-stuff-in-resilience--learning)
+2.6 [6. Don't Get Few-Shotted (Avoiding Brittleness)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#6-dont-get-few-shotted-avoiding-brittleness)
+3. [Overall Architecture Advice](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#overall-architecture-advice)
+4. [Additional Manus Lessons (Verbatim from Article Summary)](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#additional-manus-lessons-verbatim-from-article-summary)
+5. [Aegis-Specific Applications](https://www.notion.so/238809797b42804f9970fabbd35050fa?v=238809797b42806d9854000cb17cbcc9&p=240809797b428020ac53f69801f146cb&pm=s#aegis-specific-applications) **UPDATED: Expanded with sub-agents/Mem0/pipeline.**
 
 **DIFFS & DELETIONS (Applied Below):**
 
