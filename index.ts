@@ -9,17 +9,16 @@ const notion = new Client({
 
 const n2m = new NotionToMarkdown({ notionClient: notion });
 
-// Your database configuration
-const databases = [
-  { id: '240809797b4280d5a957dbe5c8a57b6d', path: 'Source-of-Truth/Core/Core-Documents', name: 'Core Documents' },
-  { id: '240809797b4280698a27dd07fb6c4e42', path: 'Source-of-Truth/Annexes/Playbooks', name: 'Playbooks' },
-  { id: '240809797b428040ab5af6702e88a1d6', path: 'Source-of-Truth/Annexes/Protocols', name: 'Protocols' },
-  { id: '240809797b4280c7a596f9d4cf3aac18', path: 'Source-of-Truth/Annexes/Processes', name: 'Processes' },
-  { id: '240809797b4280f3ad50fd58d92c6fb4', path: 'Source-of-Truth/Annexes/Debriefs', name: 'Debriefs' },
-  { id: '240809797b4280d3aa1ef647a567776b', path: 'Source-of-Truth/Annexes/Guides', name: 'Guides' },
-  { id: '240809797b4280558421ed0009719549', path: 'Source-of-Truth/Annexes/Roadmaps', name: 'Roadmaps' },
-  { id: '240809797b4280d2a735eec127de0156', path: 'Source-of-Truth/Annexes/References', name: 'References' },
-  { id: '240809797b42801ba12dcce8b8c06a8b', path: 'Source-of-Truth/Annexes/Methodologies', name: 'Methodologies' },
+// const databases = [
+  { id: '240809797b4280d5a957dbe5c8a57b6d', path: 'source-of-truth/Core', name: 'Core Documents' },
+  { id: '240809797b4280698a27dd07fb6c4e42', path: 'source-of-truth/Annexes/Playbooks', name: 'Playbooks' },
+  { id: '240809797b428040ab5af6702e88a1d6', path: 'source-of-truth/Annexes/Protocols', name: 'Protocols' },
+  { id: '240809797b4280c7a596f9d4cf3aac18', path: 'source-of-truth/Annexes/Processes', name: 'Processes' },
+  { id: '240809797b4280f3ad50fd58d92c6fb4', path: 'source-of-truth/Annexes/Debriefs', name: 'Debriefs' },
+  { id: '240809797b4280d3aa1ef647a567776b', path: 'source-of-truth/Annexes/Guides', name: 'Guides' },
+  { id: '240809797b4280558421ed0009719549', path: 'source-of-truth/Annexes/Roadmaps', name: 'Roadmaps' },
+  { id: '240809797b4280d2a735eec127de0156', path: 'source-of-truth/Annexes/References', name: 'References' },
+  { id: '240809797b42801ba12dcce8b8c06a8b', path: 'source-of-truth/Annexes/Methodologies', name: 'Methodologies' },
 ];
 
 async function getPageTitle(page: any): Promise<string> {
