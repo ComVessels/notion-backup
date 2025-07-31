@@ -2,7 +2,7 @@
 title: Context Engineering Guide
 database: Guides
 notion_id: 23f80979-7b42-80fa-9dfe-f9fd4dd89e17
-last_updated: 2025-07-31T16:38:18.767Z
+last_updated: 2025-07-31T16:59:15.610Z
 ---
 
 # Context Engineering Guide
