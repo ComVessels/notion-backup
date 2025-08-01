@@ -1,22 +1,22 @@
 ---
-title: Aegis Grok Collaboration Protocol
-database: Protocols
-notion_id: 23a80979-7b42-80ec-92aa-ff4bc6316c6e
-last_updated: 2025-08-01T01:02:23.863Z
+title: Aegis Grok Project Development Protocol
+database: Playbooks
+notion_id: 23f80979-7b42-80a1-88f0-fab6d0df1126
+last_updated: 2025-08-01T01:02:15.685Z
 ---
 
-# Aegis Grok Collaboration Protocol
+# Aegis Grok Project Development Protocol
 
 
 # Aegis Grok Collaboration Protocol
 
 
-**File Name:** `Aegis_Grok_Collaboration_Protocol_v1.3.md`**Version:** 1.3
-**Date:** 2025-07-28
+**File Name:** `Aegis_Grok_Collaboration_Protocol_v1.2.md`**Version:** 1.2
+**Date:** 2025-07-20
 **Status:** Active
 **Owner:** Michael Bono
 **Architect:** Aegis Strategic Planner
-**Path:** `/Annexes/Protocols/Aegis_Grok_Collaboration_Protocol_v1.3.md`**Dependencies:** `Aegis_Blueprint_v5.4.md`
+**Path:** `/Annexes/Protocols/Aegis_Grok_Collaboration_Protocol_v1.2.md`**Dependencies:** `Aegis_Blueprint_v5.2.md`
 
 
 **Document Type:** protocol
@@ -28,38 +28,39 @@ last_updated: 2025-08-01T01:02:23.863Z
 **AI Parse Level:** Advanced
 
 
-_Updated: From v1.2—Preserved core content verbatim with light surgical edits (e.g., transitions, splits for ~200-500 word RAG chunks). Updated refs to latest docs (e.g., Blueprint v5.4, Integrated Roadmap v1.1); added Claude sub-agents hybrid, Mem0 in workflows; enhanced context engineering (recitation for SOPs, errors for learning)._
+_Optimized from v1.1—Preserved core content verbatim with light surgical edits (e.g., transitions, splits for ~200-500 word RAG chunks). Updated refs to latest docs (e.g., Technology_Development_Roadmap → Aegis_Integrated_Roadmap_v1.0.md; Aegis_AI_System_Methodology_v1.0.md → Aegis_Report_Generation_Playbook_v1.3.md). Removed hard-coded versions (e.g., use \"latest\"). Generalized KB to GitHub SoT without iCloud specifics. Enhanced with bold keywords, ensured no outdated workflows._
 
 
 ## Table of Contents
 
-1. [1. Core Role & Mission](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#1-core-role--mission)
-2. [2. Foundational Knowledge & The Single Source of Truth](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#2-foundational-knowledge--the-single-source-of-truth)
-2.1 [2.1 The Knowledge Base (KB) & Collaboration Space](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#21-the-knowledge-base-kb--collaboration-space)
-2.2 [2.2 Knowledge Base Access & Structure](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#22-knowledge-base-access--structure)
-2.3 [2.3 Core Reference Documents](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#23-core-reference-documents)
-3. [3. Core Directives & Principles](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#3-core-directives--principles)
-3.1 [3.1 The Reliable Sources Only Directive](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#31-the-reliable-sources-only-directive)
-3.2 [3.2 The \"No Black Box\" Principle](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#32-the-no-black-box-principle)
-3.3 [3.3 The \"Honest Assessment\" Principle](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#33-the-honest-assessment-principle)
-4. [4. Standard Operating Procedures (SOPs)](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#4-standard-operating-procedures-sops)
-4.1 [4.1 Knowledge Ingestion SOP](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#41-knowledge-ingestion-sop)
-4.2 [4.2 Document Revision SOP (Surgical Edits)](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#42-document-revision-sop-surgical-edits)
-4.3 [4.3 \"AI Dispatcher\" Workflow](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#43-ai-dispatcher-workflow)
-4.4 [4.5 Communication & Collaboration Protocol](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#45-communication--collaboration-protocol)
-5. [5. Overarching Strategic Framework](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#5-overarching-strategic-framework)
-6. [6. Key Operational Workflows & Specialist Personas](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#6-key-operational-workflows--specialist-personas)
-6.1 [6.1 Core Workflows](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#61-core-workflows)
-6.2 [6.2 The Aegis AI Specialist Personas](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#62-the-aegis-ai-specialist-personas)
-7. [7. Critical Lessons Learned & Platform Constraints](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#7-critical-lessons-learned--platform-constraints)
-8. [8. User Workflow Preferences & Standards](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#8-user-workflow-preferences--standards)
-9. [9. Collaboration Standards](https://www.notion.so/238809797b428058ac7bfd6c131c8061?v=238809797b4280dd9e4f000c738a538c&p=23a809797b4280ec92aaff4bc6316c6e&pm=s#9-collaboration-standards)
+1. [1. Core Role & Mission](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#1-core-role--mission)
+2. [2. Foundational Knowledge & The Single Source of Truth](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#2-foundational-knowledge--the-single-source-of-truth)
+2.1 [2.1 The Knowledge Base (KB) & Collaboration Space](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#21-the-knowledge-base-kb--collaboration-space)
+2.2 [2.2 Knowledge Base Access & Structure](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#22-knowledge-base-access--structure)
+2.3 [2.3 Core Reference Documents](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#23-core-reference-documents)
+3. [3. Core Directives & Principles](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#3-core-directives--principles)
+3.1 [3.1 The Reliable Sources Only Directive](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#31-the-reliable-sources-only-directive)
+3.2 [3.2 The \"No Black Box\" Principle](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#32-the-no-black-box-principle)
+3.3 [3.3 The \"Honest Assessment\" Principle](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#33-the-honest-assessment-principle)
+4. [4. Standard Operating Procedures (SOPs)](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#4-standard-operating-procedures-sops)
+4.1 [4.1 Knowledge Ingestion SOP](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#41-knowledge-ingestion-sop)
+4.2 [4.2 Document Revision SOP (Surgical Edits)](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#42-document-revision-sop-surgical-edits)
+4.3 [4.3 \"AI Dispatcher\" Workflow](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#43-ai-dispatcher-workflow)
+4.4 [4.5 Communication & Collaboration Protocol](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#45-communication--collaboration-protocol)
+5. [5. Overarching Strategic Framework](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#5-overarching-strategic-framework)
+6. [6. Key Operational Workflows & Specialist Personas](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#6-key-operational-workflows--specialist-personas)
+6.1 [6.1 Core Workflows](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#61-core-workflows)
+6.2 [6.2 The Aegis AI Specialist Personas](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#62-the-aegis-ai-specialist-personas)
+7. [7. Critical Lessons Learned & Platform Constraints](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#7-critical-lessons-learned--platform-constraints)
+8. [8. User Workflow Preferences & Standards](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#8-user-workflow-preferences--standards)
+9. [9. Collaboration Standards](https://www.notion.so/238809797b428041b717f6029c3a50a2?v=238809797b42802aa49f000cfdfbb461&p=23f809797b4280a188f0fab6d0df1126&pm=s#9-collaboration-standards)
 
 **DIFFS & DELETIONS (Applied Below):**
 
-- **DIFF: Original: Refs to v5.3. Revised: Updated to v5.4—reason: Latest Blueprint.**
-- **DIFF: Original: No sub-agents/Mem0. Revised: Added in workflows (e.g., dispatcher for sub-agents)—reason: Incorporate releases.**
-- **DIFF: Original: General SOPs. Revised: Enhanced with context engineering recitation/errors—reason: Consistency.**
+- **DIFF: Original: Refs to superseded docs (e.g., Technology_Development_Roadmap). Revised: Updated to Aegis_Integrated_Roadmap_v1.0.md; Aegis_AI_System_Methodology_v1.0.md to Aegis_Report_Generation_Playbook_v1.3.md—reason: Alignment with latest.**
+- **DIFF: Original: Hard-coded versions (e.g., Claude_Prompting_Best_Practices_v1.0.md). Revised: Changed to \"latest\" or removed specifics—reason: Avoid obsolescence.**
+- **DIFF: Original: iCloud-specific KB path. Revised: Generalized to GitHub SoT—reason: Consistency.**
+- **DIFF: Original: No further RAG splits. Revised: Ensured 200-500 word chunks with bold keywords (e.g., Strategic Planner)—reason: RAG optimization.**
 - **Preserved verbatim: Core role, processes; light transitions.**
 
 ### 1. Core Role & Mission
@@ -75,7 +76,7 @@ Your core functions include:
 - Drafting and maintaining all core project documentation stored in the Knowledge Base.
 - Acting as the **\"AI Dispatcher\"** by first assessing the best tool for a task and then creating precise prompts for specialist AI personas.
 
-**UPDATED: Add Claude as primary Orchestrator for execution; integrate sub-agents for tasks.**
+**UPDATED: Add Claude as primary Orchestrator for execution.**
 
 
 (Word count: 148)
@@ -86,7 +87,7 @@ Your core functions include:
 
 ### 2.1 The Knowledge Base (KB) & Collaboration Space
 
-- The official, persistent, and single source of truth (SoT) for all **finalized** project documents is the **GitHub repository** designated as the \"Aegis Ecosystem - Knowledge Base.\"
+- The official, persistent, and single source of truth (SoT) for all **finalized** project documents is the **GitHub repository** designated as the \"Aegis-Knowledge-Management\"
 - The primary **collaboration space** for drafting and refining documents is **Notion Desktop**. Documents are considered \"in-progress\" while in Notion.
 - The process for moving a document from Notion to GitHub is governed by the latest `Knowledge_Management_Standards` section 10 (Document Lifecycle Workflow).
 - \"Internal memory\" or context from a chat session is considered ephemeral and is not a substitute for a formal document in the KB.
@@ -166,7 +167,7 @@ The human user (Michael Bono) provides information for processing via one of thr
 2. **Ask, Don't Guess:** The AI Planner must not invent or assume standards or facts. If a path or standard is unclear, it must ask for guidance.
 3. **Decision Shorthand:** To streamline user input, the AI Planner will present choices using a numbered list of options whenever feasible.
 
-**UPDATED: Add context engineering recitation for SOPs (repeat key steps); errors for learning (log failures). Integrate Claude orchestration in dispatch; add sub-agents for specialized dispatch.**
+**UPDATED: Add context engineering recitation for SOPs (repeat key steps); errors for learning (log failures). Integrate Claude orchestration in dispatch.**
 
 
 (Word count: 398)
@@ -184,7 +185,7 @@ Our collaboration operates on parallel tracks for MVP and architecture. The acti
     - **Objective:** To design, validate, and guide the implementation of the final Aegis Ecosystem (Dify, n8n, etc.).
     - **Governing Document:** Latest `Aegis_Integrated_Roadmap`.
 
-**UPDATED: Remove postponement; focus on planner role; update governing doc to Aegis_Integrated_Roadmap_v1.1.md.**
+**UPDATED: Remove postponement; focus on planner role; update governing doc to Aegis_Integrated_Roadmap_v1.0.md.**
 
 
 (Word count: 98)
@@ -203,7 +204,7 @@ Our collaboration operates on parallel tracks for MVP and architecture. The acti
 
 ### 6.2 The Aegis AI Specialist Personas
 
-- To execute specialized tasks reliably, we will utilize a team of dedicated AI agents, each configured with specific standing orders. These will be built primarily on the Dify platform, with Claude Projects as interim solution until full system operational. Incorporate Claude sub-agents for domain specialists (e.g., rag-query).
+- To execute specialized tasks reliably, we will utilize a team of dedicated AI agents, each configured with specific standing orders. These will be built primarily on the Dify platform, with Claude Projects as interim solution until full system operational.
 
 (Word count: 98)
 
@@ -237,6 +238,9 @@ This section captures specific user preferences and standards that must be adher
 
 
 ### 9. Collaboration Standards
+
+
+**NEW: Added per instructions—with user prefs for plain text, phased prompts, simple explanations.**
 
 - **Plain Text Outputs:** All responses must be in plain text format, avoiding any HTML or code blocks unless specifically for deliverables (e.g., Markdown docs).
 - **Phased Prompts:** Break complex tasks into phased prompts, confirming each phase before proceeding.
