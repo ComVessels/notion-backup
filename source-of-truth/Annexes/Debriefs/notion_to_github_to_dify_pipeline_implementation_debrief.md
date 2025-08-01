@@ -2,7 +2,7 @@
 title: Notion to GitHub to Dify Pipeline Implementation Debrief
 database: Debriefs
 notion_id: 24180979-7b42-80b4-a601-d0f5f74ee10b
-last_updated: 2025-08-01T21:26:33.683Z
+last_updated: 2025-08-01T21:42:11.691Z
 ---
 
 # Notion to GitHub to Dify Pipeline Implementation Debrief
