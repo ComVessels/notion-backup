@@ -2,7 +2,7 @@
 title: Claude OpenMemory System Brief
 database: References
 notion_id: 23f80979-7b42-8019-8626-e10842378e45
-last_updated: 2025-08-03T17:59:44.643Z
+last_updated: 2025-08-03T18:39:49.201Z
 ---
 
 # Claude OpenMemory System Brief
