@@ -2,7 +2,7 @@
 title: Aegis Project Management with Context Engineering Playbook
 database: Playbooks
 notion_id: 23f80979-7b42-802a-b128-de976c99292a
-last_updated: 2025-08-04T12:27:19.162Z
+last_updated: 2025-08-04T13:24:16.454Z
 ---
 
 # Aegis Project Management with Context Engineering Playbook
