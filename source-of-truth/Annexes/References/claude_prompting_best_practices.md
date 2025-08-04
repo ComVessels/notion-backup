@@ -2,7 +2,7 @@
 title: Claude Prompting Best Practices
 database: References
 notion_id: 23f80979-7b42-80fc-9703-e740d4332d3b
-last_updated: 2025-08-04T14:54:44.490Z
+last_updated: 2025-08-04T15:17:08.939Z
 ---
 
 # Claude Prompting Best Practices
