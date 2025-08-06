@@ -1,8 +1,8 @@
 ---
 title: Claude Available Tools
 database: References
-notion_id: 24080979-7b42-8054-a42c-d9cbddfd9c3a
-last_updated: 2025-08-06T22:12:01.283Z
+notion_id: 24780979-7b42-80c3-a91a-de0b68294680
+last_updated: 2025-08-06T22:38:45.703Z
 ---
 
 # Claude Available Tools
@@ -11,227 +11,214 @@ last_updated: 2025-08-06T22:12:01.283Z
 # Claude Available Tools
 
 
-**File Name:** `Claude_Available_Tools_v1.1.md`
-
-
-**Version:** 1.1
-
-
+**File Name:** `Claude_Available_Tools_v1.2.md`**Version:** 1.2
 **Date:** 2025-07-19
-
-
+**Updated:** From v1.1—Content preserved verbatim with structural reformatting for RAG optimization (200-500 word chunks, XML tagging, bold keywords per Context Engineering Guide v1.1) using Aegis Knowledge Base Universal Reformatter Prompt v3.
 **Status:** Active
-
-
-**Path:** `/Annexes/References/Claude_Available_Tools_v1.1.md`
-
-
-_Preserved core content verbatim from provided source. Light surgical edits: Added ToC; split into short sections (~200-300 words each) with descriptive headings (e.g., ## Native Claude Capabilities → subsections); bolded key tools (e.g.,_ _**Artifacts**__). Diffs below._
+**Owner:** Michael Bono
+**Path:** `/Annexes/References/Claude_Available_Tools_v1.2.md`**Dependencies:** `Claude_Prompting_Best_Practices_v1.1.md`**Document Type:** reference
+**Domain:** ai\_toolchain
+**Prerequisites:** zen\_mcp\_access, claude\_account
+**Related Documents:** `/Annexes/Protocols/Aegis_Grok_Collaboration_Protocol_v1.3.md`**Aegis Context:** system\_tooling
+**Compliance Requirements:** xml\_prompting
+**AI Parse Level:** Strategic
 
 
 ## Table of Contents
 
-1. [Native Claude Capabilities](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#native-claude-capabilities)
-1.1 [Artifacts](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#artifacts)
-1.2 [Analysis Tool (REPL)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#analysis-tool-repl)
-1.3 [Web Tools](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#web-tools)
-1.4 [Knowledge Management](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#knowledge-management)
-2. [MCP Toolkit Integrations](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#mcp-toolkit-integrations)
-2.1 [Docker OpenAPI Tools](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#docker-openapi-tools)
-2.2 [Brave Search](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#brave-search)
-2.3 [GitHub Integration](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#github-integration)
-2.4 [File System Access](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#file-system-access)
-2.5 [Puppeteer (Browser Automation)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#puppeteer-browser-automation)
-2.6 [Firecrawl (Web Scraping)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#firecrawl-web-scraping)
-2.7 [Perplexity Integration](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#perplexity-integration)
-2.8 [Notion Integration](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#notion-integration)
-2.9 [Google Services](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#google-services)
-2.10 [Wikipedia](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#wikipedia)
-2.11 [Advanced AI Tools (Zen MCP)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#advanced-ai-tools-zen-mcp)
-2.12 [Memory Tools](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#memory-tools)
-3. [Model Access (via Zen MCP)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#model-access-via-zen-mcp)
-4. [Key Limitations](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#key-limitations)
-5. [Best Use Cases for Development](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=240809797b428054a42cd9cbddfd9c3a&pm=s#best-use-cases-for-development)
+1. [Native Claude Capabilities](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=247809797b4280c3a91ade0b68294680&pm=s#native-claude-capabilities)
+2. [MCP Toolkit Integrations](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=247809797b4280c3a91ade0b68294680&pm=s#mcp-toolkit-integrations)
+3. [Model Access (via Zen MCP)](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=247809797b4280c3a91ade0b68294680&pm=s#model-access-via-zen-mcp)
+4. [Key Limitations](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=247809797b4280c3a91ade0b68294680&pm=s#key-limitations)
+5. [Best Use Cases for Development](https://www.notion.so/238809797b42800ea6e4c1bd26f0188c?v=238809797b4280ac969e000c00cadd67&p=247809797b4280c3a91ade0b68294680&pm=s#best-use-cases-for-development)
 
-**DIFF: Original: No ToC or subsections. Revised: Added ToC and split into descriptive subsections (e.g., ## Native Claude Capabilities with 1.1 etc.)—reason: RAG chunk optimization (short, focused sections ~200-300 words); improve readability/flow.**
+---
 
 
 ## Native Claude Capabilities
 
 
-Claude includes several built-in tools that enable advanced functionality without external integrations. These capabilities form the foundation for sophisticated task handling.
+**Claude includes built-in tools** that enable core capabilities for technical execution and document manipulation.
 
 
 ### Artifacts
 
-- **Artifacts**: Create and update code, documents, and structured content
-- Supports: Code, Markdown, HTML, React components, SVG, Mermaid diagrams
-- Use case: Building interfaces, documentation, code generation
+- **Artifacts**: Create/update code, documents, and structured content
+- Supports: Markdown, HTML, React, SVG, Mermaid
+- Use cases: Technical writing, interface design, coding
 
 ### Analysis Tool (REPL)
 
-- **Analysis Tool (REPL)**: Execute JavaScript code in browser environment
-- Process CSV, Excel, JSON files
-- Data visualization and complex calculations
+- **Execute JavaScript** in a browser-like environment
+- Supports: CSV, Excel, JSON processing
 - Libraries: lodash, papaparse, xlsx, mathjs, d3
+- Use cases: Data visualization, quick math, text parsing
 
 ### Web Tools
 
-- **Web Tools**
-- **web_search**: Search the internet for current information
-- **web_fetch**: Retrieve content from specific URLs
+- **web\_search**: General web queries
+- **web\_fetch**: Load URL content (HTML or file)
 
 ### Knowledge Management
 
-- **Knowledge Management**
-- Upload and reference documents
-- Search within conversation context
-- Create structured knowledge items
+- Upload documents, search context
+- Create structured memories
+- Query across loaded content
+
+---
+
 
 ## MCP Toolkit Integrations
 
 
-The Model Context Protocol (MCP) extends Claude's capabilities through specialized tool integrations. These tools enable advanced operations across various domains.
+**Zen MCP extends Claude** into a full-stack toolchain environment.
 
 
 ### Docker OpenAPI Tools
 
-- **Docker OpenAPI Tools**
-- List API endpoints
-- Get endpoint details
-- Explore request/response schemas
-- Search API documentation
+- List and query APIs
+- Retrieve endpoint schemas and docs
 
 ### Brave Search
 
-- **Brave Search**
-- Web search with advanced filtering
-- Local business search
-- Real-time information retrieval
+- Web queries with local business, real-time search filters
 
 ### GitHub Integration
 
-- **GitHub Integration** (Extensive)
-- Repository management (create, fork, search)
-- Issues and PR management
-- Code file operations (read, write, update)
-- Branch and commit operations
-- GitHub Actions workflow triggers
-- Code review and commenting
+- Repos, PRs, issues, branches, commits
+- File edit + create
+- Trigger GitHub Actions
+- Structured code review
 
 ### File System Access
 
-- **File System Access**
-- Read/write files and directories
-- Search files recursively
-- Move/rename files
-- Get file metadata
-- Limited to allowed directories
+- Read/write local files (sandboxed)
+- Rename, search, or move files
+- Metadata retrieval
 
 ### Puppeteer (Browser Automation)
 
-- **Puppeteer (Browser Automation)**
 - Navigate websites
-- Take screenshots
-- Click elements and fill forms
-- Execute JavaScript in pages
+- Screenshot, click, form-fill
+- Execute JS on pages
 
 ### Firecrawl (Web Scraping)
 
-- **Firecrawl (Web Scraping)**
-- Scrape single or multiple URLs
-- Map entire websites
-- Extract structured data
-- Deep research capabilities
+- Extract data from sites
+- Crawl entire domains
 - Generate LLMs.txt files
+- Map structured elements
 
-### Perplexity Integration
+### Perplexity (Sonar API)
 
-- **Perplexity Integration**
-- Ask questions (Sonar API)
-- Perform deep research
-- Reasoning tasks
+- Research deep queries
+- Use reasoning + context trails
 
 ### Notion Integration
 
-- **Notion Integration**
-- Create and update pages
-- Search content
-- Manage blocks and databases
-- Create child pages
-- Add comments
+- Page + block management
+- Comments, databases
+- Page creation and updates
 
 ### Google Services
 
-- **Google Services**
-- **Drive**: Search and fetch documents
-- **Maps**: Geocoding, directions, place search
-- **Calendar**: (If enabled)
-- **Gmail**: (If enabled)
+- **Drive**: Search, read
+- **Maps**: Location, directions
+- **Calendar/Gmail**: (if authorized)
 
 ### Wikipedia
 
-- **Wikipedia**
-- Search articles
-- Get full content or summaries
-- Extract key facts
-- Topic relationship mapping
+- Search, summarize, extract articles
+- Relationship graphs
 
 ### Advanced AI Tools (Zen MCP)
 
-- **Advanced AI Tools (Zen MCP)**
-- **chat**: Collaborative discussions with AI models
-- **thinkdeep**: Multi-stage investigation workflows
-- **planner**: Sequential planning with revision capabilities
-- **consensus**: Multi-model consensus building
-- **codereview**: Systematic code analysis
-- **debug**: Root cause analysis
-- **analyze**: Comprehensive code analysis
-- **refactor**: Code improvement suggestions
-- **tracer**: Code execution flow analysis
-- **testgen**: Test suite generation
+- **chat** – conversational agent
+- **planner** – step planning
+- **debug**, **refactor**, **testgen** – code improvement tools
+- **consensus**, **thinkdeep** – multi-agent investigation
 
 ### Memory Tools
 
-- **Memory Tools**
-- Add memories about user preferences
-- Search stored memories
-- List all memories
-- Delete memories
+- Add, delete, search user/system memories
+- Support for long-term context alignment
+
+---
+
 
 ## Model Access (via Zen MCP)
 
 
-### Available Models:
+<answer>
 
-- **Gemini**: 2.0-flash, 2.5-flash, 2.5-pro
-- **OpenAI**: o3, o3-mini, o4-mini, gpt-4.1
-- [**X.AI**](http://x.ai/): grok-3, grok-3-fast
+
+Claude connects to multiple models via Zen MCP routing:
+
+
+</answer>
+
+
+| Provider | Models                        |
+| -------- | ----------------------------- |
+| Gemini   | 2.0-flash, 2.5-flash, 2.5-pro |
+| OpenAI   | o3, o3-mini, o4-mini, GPT-4.1 |
+| xAI      | grok-3, grok-3-fast           |
+
+
+<important>
+
+
+Use routing tags in Claude MCP shell to select model (`@model=gpt-4.1`).
+
+
+</important>
+
+
+---
+
 
 ## Key Limitations
 
-1. **No Direct Database Access** (must use APIs)
-2. **No Email Sending** (can draft but not send)
-3. **No Direct Cloud Provider APIs** (AWS, Azure, GCP)
-4. **Limited to Browser JavaScript** (no Node.js in analysis tool)
-5. **File System Access Restricted** to specific directories
+1. **No native DB access** — use APIs only
+2. **No send-email support**
+3. **No cloud API integration (AWS, Azure)**
+4. **Browser JS only — no Node.js**
+5. **File system sandboxed**
+
+<thinking>
+
+
+These limitations require external orchestration (e.g., n8n) or prompt engineering workarounds.
+
+
+</thinking>
+
+
+---
+
 
 ## Best Use Cases for Development
 
 
-### Claude Excels At:
+### Claude Excels At
 
-- Writing configuration files (Docker Compose, n8n workflows)
-- Creating setup documentation with exact commands
-- Building web interfaces and dashboards
-- Data processing and analysis
-- GitHub repository management
-- Notion content organization
+- Markdown-based technical writing
+- Setup guides (Docker, n8n, Notion)
+- GitHub project automation
+- Notion page management
+- Data parsing + JS REPL logic
+- Web scraping with Firecrawl
 
-### Claude Needs Human Help For:
+### Claude Needs Human Help For
 
-- Running Docker commands locally
-- Accessing cloud provider consoles
-- Making payments or account creation
-- Physical server/network configuration
-- Testing deployments in real environments
+- Docker command execution
+- Payment or account creation
+- Real-world networking
+- Cloud console operations
+- Hardware and local app deployment
+
+---
+
+
+**End of Reference**
+
