@@ -2,7 +2,7 @@
 title: Notion GitHug Dify Pipeline Debried
 database: Debriefs
 notion_id: 24780979-7b42-809e-96d9-d8caf2e798e9
-last_updated: 2025-08-06T23:49:58.565Z
+last_updated: 2025-08-06T23:59:15.180Z
 ---
 
 # Notion GitHug Dify Pipeline Debried
