@@ -2,7 +2,7 @@
 title: Aegis Config 18 Debrief
 database: Debriefs
 notion_id: 24880979-7b42-804f-bbbb-d9e5dfc896e0
-last_updated: 2025-08-07T11:40:21.122Z
+last_updated: 2025-08-07T11:52:00.020Z
 ---
 
 # Aegis Config 18 Debrief
@@ -11,7 +11,7 @@ last_updated: 2025-08-07T11:40:21.122Z
 # Aegis Config Session 18 Debrief
 
 
-**File Name:** `aegis-config-18-debrief.md`**Version:** 1.2
+**File Name:** `aegis-config-18-debrief.md`**Version:** 1.1
 **Date:** 2025-08-04
 **Status:** Active
 **Owner:** Michael Bono
