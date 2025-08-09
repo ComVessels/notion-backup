@@ -2,7 +2,7 @@
 title: Aegis Grok Project Development Playbook
 database: Playbooks
 notion_id: 24780979-7b42-8062-9a69-e2fea0d6bca1
-last_updated: 2025-08-09T15:00:21.578Z
+last_updated: 2025-08-09T15:27:25.006Z
 ---
 
 # Aegis Grok Project Development Playbook
