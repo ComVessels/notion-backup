@@ -2,7 +2,7 @@
 title: RAG Document Processing Guide
 database: Guides
 notion_id: 24880979-7b42-8066-9671-f886c1e21642
-last_updated: 2025-08-13T15:49:03.778Z
+last_updated: 2025-08-13T15:58:37.337Z
 ---
 
 # RAG Document Processing Guide
