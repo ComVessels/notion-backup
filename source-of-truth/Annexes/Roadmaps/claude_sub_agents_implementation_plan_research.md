@@ -2,7 +2,7 @@
 title: Claude Sub-Agents Implementation Plan Research
 database: Roadmaps
 notion_id: 24880979-7b42-80e6-8e2a-f32ea738033d
-last_updated: 2025-08-24T15:32:17.918Z
+last_updated: 2025-08-24T15:43:37.138Z
 ---
 
 # Claude Sub-Agents Implementation Plan Research
