@@ -2,7 +2,7 @@
 title: Aegis Plan Implementation
 database: Debriefs
 notion_id: 24780979-7b42-808b-907c-d1c722aedbe1
-last_updated: 2025-08-26T17:53:49.770Z
+last_updated: 2025-08-26T18:15:59.139Z
 ---
 
 # Aegis Plan Implementation
