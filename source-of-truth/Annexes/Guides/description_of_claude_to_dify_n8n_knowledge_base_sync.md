@@ -2,7 +2,7 @@
 title: Description of Claude to Dify n8n Knowledge Base Sync
 database: Guides
 notion_id: 24880979-7b42-8000-9536-efb1d44a9c9e
-last_updated: 2025-08-29T05:58:11.297Z
+last_updated: 2025-08-29T06:30:42.017Z
 ---
 
 # Description of Claude to Dify n8n Knowledge Base Sync
