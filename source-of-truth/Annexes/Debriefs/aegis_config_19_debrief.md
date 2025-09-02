@@ -2,7 +2,7 @@
 title: Aegis Config 19 Debrief
 database: Debriefs
 notion_id: 24880979-7b42-80c3-8aba-c0125ba1663b
-last_updated: 2025-09-02T03:57:24.335Z
+last_updated: 2025-09-02T04:25:05.657Z
 ---
 
 # Aegis Config 19 Debrief
