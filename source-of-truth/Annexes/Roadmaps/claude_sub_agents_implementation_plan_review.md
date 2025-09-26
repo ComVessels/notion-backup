@@ -2,7 +2,7 @@
 title: Claude Sub-Agents Implementation Plan Review
 database: Roadmaps
 notion_id: 24880979-7b42-8096-bc39-c45170187a15
-last_updated: 2025-09-26T17:30:52.517Z
+last_updated: 2025-09-26T17:43:13.347Z
 ---
 
 # Claude Sub-Agents Implementation Plan Review
