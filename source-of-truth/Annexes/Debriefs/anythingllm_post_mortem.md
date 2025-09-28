@@ -2,7 +2,7 @@
 title: AnythingLLM Post-Mortem
 database: Debriefs
 notion_id: 24780979-7b42-80ee-9b87-e05b32e44deb
-last_updated: 2025-09-28T09:29:13.465Z
+last_updated: 2025-09-28T09:39:32.178Z
 ---
 
 # AnythingLLM Post-Mortem
