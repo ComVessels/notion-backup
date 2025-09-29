@@ -2,7 +2,7 @@
 title: Aegis Auditor Process
 database: Processes
 notion_id: 24780979-7b42-80fb-bbd8-c958d9fb00f0
-last_updated: 2025-09-29T09:41:17.546Z
+last_updated: 2025-09-29T09:50:22.918Z
 ---
 
 # Aegis Auditor Process
