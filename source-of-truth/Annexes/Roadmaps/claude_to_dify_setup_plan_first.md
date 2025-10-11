@@ -2,7 +2,7 @@
 title: Claude to Dify SetUp Plan-First
 database: Roadmaps
 notion_id: 24880979-7b42-80b2-bd34-c639953a1207
-last_updated: 2025-10-11T07:31:56.543Z
+last_updated: 2025-10-11T07:41:33.752Z
 ---
 
 # Claude to Dify SetUp Plan-First

@@ -2,7 +2,7 @@
 title: Claude Sub Agents Integration Assessment
 database: Debriefs
 notion_id: 24780979-7b42-8049-80ed-e482fd6bbb25
-last_updated: 2025-10-11T07:30:41.585Z
+last_updated: 2025-10-11T07:40:24.369Z
 ---
 
 # Claude Sub Agents Integration Assessment
