@@ -2,7 +2,7 @@
 title: Dify API Test Debrief
 database: Debriefs
 notion_id: 24380979-7b42-8170-9180-fe724597e392
-last_updated: 2025-10-12T10:51:51.704Z
+last_updated: 2025-10-12T11:01:01.588Z
 ---
 
 # Dify API Test Debrief
