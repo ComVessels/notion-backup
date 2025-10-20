@@ -2,7 +2,7 @@
 title: Aegis Integrated Roadmap
 database: Roadmaps
 notion_id: 24080979-7b42-8036-8a00-d005b43bec28
-last_updated: 2025-10-20T06:47:14.725Z
+last_updated: 2025-10-20T07:24:08.197Z
 ---
 
 # Aegis Integrated Roadmap
