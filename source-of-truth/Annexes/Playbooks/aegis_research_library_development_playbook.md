@@ -2,7 +2,7 @@
 title: Aegis Research Library Development Playbook
 database: Playbooks
 notion_id: 24780979-7b42-80da-a279-ce96b837e033
-last_updated: 2025-10-26T23:51:42.201Z
+last_updated: 2025-10-27T00:43:47.910Z
 ---
 
 # Aegis Research Library Development Playbook
