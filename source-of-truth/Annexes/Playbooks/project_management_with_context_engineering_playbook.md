@@ -2,7 +2,7 @@
 title: Project Management with Context Engineering Playbook
 database: Playbooks
 notion_id: 24780979-7b42-80a8-91d4-dbc14f868f2b
-last_updated: 2025-10-28T16:12:46.141Z
+last_updated: 2025-10-28T16:43:32.741Z
 ---
 
 # Project Management with Context Engineering Playbook
