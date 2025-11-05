@@ -2,7 +2,7 @@
 title: Description of OpenRouter to Dify n8n Knowledge Base Sync
 database: Guides
 notion_id: 24880979-7b42-80e6-ba6e-e023d3378397
-last_updated: 2025-11-05T07:31:44.485Z
+last_updated: 2025-11-05T07:44:18.135Z
 ---
 
 # Description of OpenRouter to Dify n8n Knowledge Base Sync
