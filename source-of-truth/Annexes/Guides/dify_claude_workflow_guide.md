@@ -2,7 +2,7 @@
 title: Dify-Claude Workflow Guide
 database: Guides
 notion_id: 24880979-7b42-80ba-b51d-ebf2a2ac2caf
-last_updated: 2025-12-21T13:52:12.787Z
+last_updated: 2025-12-21T14:01:53.117Z
 ---
 
 # Dify-Claude Workflow Guide
