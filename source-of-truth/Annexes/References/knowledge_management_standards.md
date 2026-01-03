@@ -2,7 +2,7 @@
 title: Knowledge Management Standards
 database: References
 notion_id: 24780979-7b42-8044-aad3-f5211f68b214
-last_updated: 2026-01-03T10:42:58.620Z
+last_updated: 2026-01-03T10:54:20.772Z
 ---
 
 # Knowledge Management Standards
