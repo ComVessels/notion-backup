@@ -2,7 +2,7 @@
 title: Aegis Blueprint
 database: Core Documents
 notion_id: 24780979-7b42-8084-8d32-e6b568e445ea
-last_updated: 2026-01-07T14:59:47.050Z
+last_updated: 2026-01-07T15:34:42.731Z
 ---
 
 # Aegis Blueprint
