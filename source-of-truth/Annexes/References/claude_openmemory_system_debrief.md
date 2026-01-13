@@ -2,7 +2,7 @@
 title: Claude OpenMemory System Debrief
 database: References
 notion_id: 24780979-7b42-8084-b672-c18ce946fbdb
-last_updated: 2026-01-13T16:03:22.969Z
+last_updated: 2026-01-13T16:47:09.714Z
 ---
 
 # Claude OpenMemory System Debrief
