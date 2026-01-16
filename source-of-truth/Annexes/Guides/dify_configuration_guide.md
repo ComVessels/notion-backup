@@ -2,7 +2,7 @@
 title: Dify Configuration Guide
 database: Guides
 notion_id: 24880979-7b42-80e4-bcbc-c3fa20ad2d72
-last_updated: 2026-01-16T19:27:23.976Z
+last_updated: 2026-01-16T19:39:28.254Z
 ---
 
 # Dify Configuration Guide
