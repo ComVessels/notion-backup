@@ -2,7 +2,7 @@
 title: Claude to Dify SetUp Plan Debrief
 database: Roadmaps
 notion_id: 24880979-7b42-806b-8c21-ff5866589e2c
-last_updated: 2026-01-20T20:09:11.528Z
+last_updated: 2026-01-20T20:48:18.594Z
 ---
 
 # Claude to Dify SetUp Plan Debrief
