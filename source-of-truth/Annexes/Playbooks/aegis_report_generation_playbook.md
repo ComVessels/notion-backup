@@ -2,7 +2,7 @@
 title: Aegis Report Generation Playbook
 database: Playbooks
 notion_id: 24780979-7b42-80ac-a31d-f4d320c637fb
-last_updated: 2026-01-25T18:15:23.189Z
+last_updated: 2026-01-25T18:47:38.294Z
 ---
 
 # Aegis Report Generation Playbook
