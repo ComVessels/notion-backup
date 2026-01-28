@@ -2,7 +2,7 @@
 title: Aegis Grok Collaboration Protocol
 database: Protocols
 notion_id: 24780979-7b42-8099-a7df-ffe56af53ece
-last_updated: 2026-01-28T09:55:59.199Z
+last_updated: 2026-01-28T10:27:27.992Z
 ---
 
 # Aegis Grok Collaboration Protocol
