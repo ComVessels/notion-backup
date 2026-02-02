@@ -2,7 +2,7 @@
 title: Aegis Roadmap Assessment
 database: Roadmaps
 notion_id: 24880979-7b42-801f-80e3-c0daf11c3002
-last_updated: 2026-02-02T01:26:37.579Z
+last_updated: 2026-02-02T04:04:33.169Z
 ---
 
 # Aegis Roadmap Assessment
