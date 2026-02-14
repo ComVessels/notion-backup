@@ -2,7 +2,7 @@
 title: Aegis Plan Analysis
 database: Debriefs
 notion_id: 24780979-7b42-80bc-9c7e-f75aeab050b0
-last_updated: 2026-02-14T23:01:23.533Z
+last_updated: 2026-02-14T23:34:13.384Z
 ---
 
 # Aegis Plan Analysis
