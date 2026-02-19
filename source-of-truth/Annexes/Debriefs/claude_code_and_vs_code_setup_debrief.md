@@ -2,7 +2,7 @@
 title: Claude Code and VS Code Setup Debrief
 database: Debriefs
 notion_id: 24780979-7b42-8065-8066-fcabc6a48000
-last_updated: 2026-02-19T10:04:53.735Z
+last_updated: 2026-02-19T11:01:29.687Z
 ---
 
 # Claude Code and VS Code Setup Debrief
