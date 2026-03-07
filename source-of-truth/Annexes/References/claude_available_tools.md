@@ -2,7 +2,7 @@
 title: Claude Available Tools
 database: References
 notion_id: 24780979-7b42-80c3-a91a-de0b68294680
-last_updated: 2026-03-07T18:32:49.607Z
+last_updated: 2026-03-07T19:00:12.839Z
 ---
 
 # Claude Available Tools
