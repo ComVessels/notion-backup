@@ -2,7 +2,7 @@
 title: Aegis Knowledge Refiner Process
 database: Processes
 notion_id: 24780979-7b42-803e-9bfd-c83ec2078c10
-last_updated: 2026-03-07T20:44:13.262Z
+last_updated: 2026-03-07T20:58:50.957Z
 ---
 
 # Aegis Knowledge Refiner Process
