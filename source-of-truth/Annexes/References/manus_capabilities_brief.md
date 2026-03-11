@@ -2,7 +2,7 @@
 title: Manus Capabilities Brief
 database: References
 notion_id: 24780979-7b42-8008-ba52-f386b4ea695b
-last_updated: 2026-03-11T16:31:57.819Z
+last_updated: 2026-03-11T17:31:39.879Z
 ---
 
 # Manus Capabilities Brief
